@@ -1,0 +1,133 @@
+* {
+    margin: 0px; 
+    padding: 0px; 
+    font-family: 'Poppins';
+}
+.mainSection {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background-color: #ceb4b4;
+}
+.leftLoginSection {
+    width: 50%;
+    height: 100vh; 
+    background-color: white;
+}
+.rightLoginSection {
+    width: 50%;
+    height: 100vh;
+}
+.remembermeDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.mainSection {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background-color: #ceb4b4;
+}
+.loginCheckboxDiv {
+    display: flex;
+    width: 36%;
+    justify-content: space-between;
+}
+.loginFormDiv {
+    display: grid;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.airplaneLogo {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%;
+    border: 3px solid #d3d3d7;
+}
+.logoDiv {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 290px;
+    margin-bottom: 12px;
+    justify-content: space-between; 
+}
+.flightAnalysisHeader {
+    color: #11116a; 
+    font-size: 20px;
+}
+.flightLogo {
+    height: 44px;
+    background: transparent;
+    width: 44px;
+    border-radius: 30px;
+}
+.inputLoginFormDiv {
+    margin-bottom: 20px;
+}
+.inputForm {
+    width: 380px;
+    height: 36px;
+    padding-left: 10px;
+    background: transparent;
+    border-radius: 5px;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+
+}
+.loginBtn {
+    height: 39px;
+    width: 100%;
+    background: transparent;
+    border-radius: 5px;
+    border: none;
+    color: #4a4a86;
+    border: 1px solid;
+    font-weight: bold;
+    transition: 1s background-color ease-in;
+    margin-top: 10px;
+}
+.alert {
+    font-size: 11px;
+}
+.alertDiv {
+    display: none;
+    height: 46px;
+    background: #c4cbe0;
+    width: 192px;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left: 2em;
+    align-items: center;
+    justify-content: flex-start;
+}
+.loginBtn:hover, 
+.loginBtn:focus {
+    background-color: #4a4a86;
+    color: white; 
+    transition: 2s background-color ease-out;
+}
+.signupBtn {
+    margin-top: 11px;
+    height: 41px;
+    width: 100%;
+    background-color: #7575fd;
+    border: 1px solid #d4d4ee;
+    border-radius: 6px;
+    color: white;
+    transition: 3s background-color cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-weight: bold;
+}
+.signupBtn:hover, 
+.signupBtn:focus {
+    background-color: #313188; 
+    color: white;
+    transition: 3s background-color cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.signupHeader {
+    text-align: center;
+    color: #20246f;
+}
